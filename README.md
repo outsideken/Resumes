@@ -4,6 +4,10 @@ This unsupervised machine learning study used natural language processing and cl
 
 A number of unsupervised machine learning methods were evaluated with the data set with different results.
 
+* Distance using multple metrics (cosine, euclidean, manhattan, cityblock) and the sklearn CountVectorizer and TfidfVectorizer methods
+* KMeans()
+* Gensim Word2Vec
+
 #### Document Similarity
 
 The `nltk` and `sklearn` libraries were used to tokenize and process the cleaned and anonymized resume text.  CountVectorizer and TfidfVectorizer were used to determine a simple document similarity using different metrics--Euclidean, Cosine, Manhattan--to evaluate the best performing method.  
