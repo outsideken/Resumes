@@ -1,6 +1,6 @@
 # Resume Clustering
 
-Resumes are an important way to convey professional experience, academic background, and other skills to prospective employers.  However, when a single job advertisement garners several hundred (or several thousand) resumes, how does a program manager efficiently evaluate hundreds (or thousands) of resumes to find the best candidates for the position?
+Resumes are an important way to convey professional experience, academic background, and other skills to prospective employers.  However, when a single job advertisement garners several hundred (or several thousand) resumes, how does a program manager efficiently evaluate hundreds (or thousands) of resumes to find the best candidates for the position?  This study investigates the use of unsupervised machine learning and natural language pocessing to cluster resumes of similar professional backgrounds and experience levels.
 
 This unsupervised machine learning study used natural language processing to evaluate a small set of 73 resumes from the same market sector.  Resumes are a unique subset of unstructured data because of the inherent, if lazy, structure that is embedded in the typical resume.  The most interpretable results came from a simple document distance model using CountVectorizer using the 'euclidean' metric.  
 
@@ -19,9 +19,15 @@ Initial observations indicate that CountVectorizer produced more interpretable c
 
 #### KMeans
 
+* [k-means clustering](https://en.wikipedia.org/wiki/K-means_clustering)
+* [sklearn Clustering: KMeans](http://scikit-learn.org/stable/modules/clustering.html#k-means)
+
 KMeans produced some interesting clustering results and plots of the clusters appeared to be centered on job advertisements for which the resumes were submitted.  Only one job advertisement was available for the resumes collected for this study so this observation could not be validated.
 
 #### Gensim Word2Vec
+
+* [Word2Vec](https://en.wikipedia.org/wiki/Word2vec)
+* [Gensim Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html)
 
 Word2Vec produced some very interesting results, but the corpus size was insufficient to utilize the results confidently.  Word2Vec is certainly worth evaluating with a much larger resume corpus.
 
