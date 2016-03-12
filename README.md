@@ -7,6 +7,7 @@ A number of unsupervised machine learning methods were evaluated with the data s
 * Distance using multple metrics (cosine, euclidean, manhattan, cityblock) and the sklearn CountVectorizer and TfidfVectorizer methods
 * KMeans()
 * Gensim Word2Vec
+* Hierarchical Clustering / Agglomerative Clustering
 
 #### Document Similarity
 
