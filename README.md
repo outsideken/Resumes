@@ -15,7 +15,6 @@ The `nltk` and `sklearn` libraries were used to tokenize and process the cleaned
 
 Initial observations indicate that CountVectorizer produced more accurately grouped clusters than TfidfVectorizer.  This is likely an artifact of the market sector and small number of resumes in the corpus (73).  The Euclidean metric was the best performing metric followed by Manhattan.  
 
-
 The and the business sector from which the of resumes came.from a small number of job advertisements and therefore were somewhat similar in language, which was 
 
 #### Topic Modeling
