@@ -41,4 +41,4 @@ Agglomerative Clustering produced an interesting clustering series, but insuffic
 
 #### Conclusions
 
-This study found a number of interesting results that are being developed in a follow-on evaluation incorporating some supervised learning to build an 'expert' system for evaluating resumes within the market sector.  KMeans, Word2Vec, and Agglomerative Clustering will both be re-evaluated once a much larger corpus of resumes is obtained.
+This study found a number of interesting results that are being developed in a follow-on evaluation that will also incorporate supervised learning to build an 'expert' system for evaluating resumes within a single job market sector.  KMeans, Word2Vec, and Agglomerative Clustering will both be re-evaluated once a much larger corpus of resumes is obtained and a corpus of job advertisements is acquired.
